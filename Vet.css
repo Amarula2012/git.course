@@ -1,0 +1,177 @@
+body{
+background-color: #f1f1f1;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation{
+
+}
+.menu{
+
+}
+li:hover{
+    text-decoration: underline;
+}
+li:active{
+    color: blue;
+}
+.main_menu a{
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main_menu{ 
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+}
+.message{
+display: flex;
+justify-content: space-around;
+padding: 15px;
+margin-top: 45px;
+}
+.text{
+
+}
+.logo{
+
+}
+.btn{
+    background-color: rgb(228, 144, 113);
+    color: white;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+.cats{
+    border-radius: 36px;
+    width:500px;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:24px;
+    padding-top: 50px;
+}
+.grid__item {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+.grid__title{
+    color: brown;
+}
+.grid__text {
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+}
+.counter {
+    margin-top: 35px;
+}
+.counter__title{
+    font-weight: bold;
+    color: brown;
+    font-size: 60px;
+}
+.counter__text{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin:0;
+}
+.img_b{
+    width: 150px;
+    border-radius: 20px;
+   
+   position: absolute;
+   right: 20%;
+   top:100px;
+}
+.container_second{
+    background-color: #946230;
+    text-align: center;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cat{
+    border-radius: 20px;
+    width: 250px;
+}
+.app__title{
+    margin-top: 80px;
+    margin-left: 60px;
+    font-weight:bold;
+    font-size: 35px;
+   
+    
+}
+.download{
+ 
+}
+.pril{
+background-color: #f8f8f8;
+color: brown;
+font-weight: bold;
+font-size: 30px;
+border-radius: 30px;
+border: none;
+}
+button:hover{
+    text-decoration: underline;
+}
+.form{
+   
+}
+.call{
+    margin-top: 220px;
+   margin-right: 30px;
+display: flex;
+justify-content: space-between;
+border-radius: 800px;
+margin-bottom: 30px;
+box-shadow: 5px 5px 50px 50px  rgba(200, 5, 5, 0.699);
+
+}
+.type{
+color: brown;
+font-weight: bold;
+font-size: 20px;
+border-radius: 28px;
+
+}
+.knopka{
+    margin-top :80px;
+    margin-left: 35px;
+}
+.form{
+    font-weight: bold;
+    
+}
+.stroka{
+box-sizing: border-box;
+    border: 1px solid wheat;
+    font-family: inherit;
+    border-radius: 20px;
+    text-align: center;
+}
+ 
+    
